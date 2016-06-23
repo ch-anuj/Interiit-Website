@@ -9,3 +9,11 @@ $(".dropdown-button").dropdown({
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     });
 });
+
+$(document).ready(function(){
+		 $('.slider').slider({full_width: true});
+	 });
+
+	 $('.card-panel').hover(function () {
+	   $(this).addClass('magictime slideLeft');
+	 });
